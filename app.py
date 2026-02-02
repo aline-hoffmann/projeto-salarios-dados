@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # --- Carregamento dos dados ---
-df = pd.read_csv("../salaries_limpo.csv")
+df = pd.read_csv("./salaries_limpo.csv")
 
 # --- Barra Lateral (Filtros) ---
 st.sidebar.header("🔍 Filtros")
